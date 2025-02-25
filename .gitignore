@@ -1,0 +1,11 @@
+echo "Library/" >> .gitignore
+echo "Logs/" >> .gitignore
+echo "Temp/" >> .gitignore
+echo "Obj/" >> .gitignore
+echo "Build/" >> .gitignore
+echo "Packages/" >> .gitignore
+echo "Library/PackageCache/" >> .gitignore
+git add .gitignore
+git commit -m "Updated .gitignore to exclude Library and PackageCache"
+
+Temp/
